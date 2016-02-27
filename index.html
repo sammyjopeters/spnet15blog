@@ -69,7 +69,7 @@ layout: compress
                             </div>
                             {{ post.content }}
                             {% if post.comments %}
-
+                                {% include disqus.html %}
                             {% endif %}
                         </div>
                     </div>
