@@ -5,6 +5,7 @@ author: "Sammyjo"
 avatar: "img/authors/sjo.png"
 image: "img/20160114_book.jpg"
 date:   2016-01-14 7:14:00
+comments: true
 ---
 
 Imagine an old woman, shakily descending into the lounge of her dusty living room. The only sound apart from her laboured breaths are the tick, tock of the clock on the wall; you suspect it’s been around long before you were born.

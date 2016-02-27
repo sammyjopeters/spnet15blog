@@ -5,6 +5,7 @@ author: "Sammyjo"
 avatar: "img/authors/sjo.png"
 image: "img/20160120_blackstar.jpg"
 date:   2016-01-20 10:32:00
+comments: true
 ---
 &nbsp;
 

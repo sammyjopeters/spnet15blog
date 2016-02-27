@@ -28,12 +28,12 @@ layout: compress
 <body class="body">
 <div class="container">
     <header class="header">
-        <h1>Modern Blog<span>A Clean, Fresh Minimal Look.</span></h1>
+        <h1>Sam's blog<span>Something, something.</span></h1>
         <nav class="links">
-            <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
-            <a href="#"><i class="fa fa-instagram fa-3x"></i></a>
-            <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
-            <a href="#"><i class="fa fa-tumblr-square fa-3x"></i></a>
+            <a target="blank" href="http://github.com/sammyjopeters"><i class="fa fa-github-square fa-3x"></i></a>
+            <a target="blank" href="https://www.instagram.com/sammyjopeters/"><i class="fa fa-instagram fa-3x"></i></a>
+            <a target="blank" href="https://www.facebook.com/sammyjopeters"><i class="fa fa-facebook-square fa-3x"></i></a>
+            <a target="blank" href="http://steamcommunity.com/id/sammyjopeters/"><i class="fa fa-steam-square fa-3x"></i></a>
         </nav>
     </header>
     <div class="content">
@@ -52,7 +52,7 @@ layout: compress
                                 <polygon class="clip" points="0,1200 0,0 1920,0 1920,1200"></polygon>
                             </clipPath>
                         </defs>
-                        <image clip-path="url(#{{ post.id }}-clip-path)" width="1920" height="1200"
+                        <image clip-path="url(#{{ post.id }}-clip-path)#disqus_thread" width="1920" height="1200"
                                xlink:href="{{ post.image }}"></image>
                     </svg>
                     <div class="card__content">
@@ -68,6 +68,11 @@ layout: compress
                                 <span class="meta__date">{{ post.date | date: "%Y-%m-%d" }}</span>
                             </div>
                             {{ post.content }}
+                            {% if post.comments %}
+                                <div id="disqus_thread"></div>
+                                <script src="js/disqus.js"></script>
+                                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+                            {% endif %}
                         </div>
                     </div>
                 </div>
@@ -85,5 +90,6 @@ layout: compress
 <script src="js/vendors/cash.min.js"></script>
 <script src="js/card-modern-blog.js"></script>
 <script src="js/modern-blog.js"></script>
+<script id="dsq-count-scr" src="//blog-sampeters-net.disqus.com/count.js" async></script>
 </body>
 </html>
