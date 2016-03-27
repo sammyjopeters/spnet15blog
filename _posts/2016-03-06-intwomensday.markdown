@@ -3,8 +3,8 @@ title:  "Women's Movements"
 subtitle: "and how they can undermine true equality"
 author: "Sammyjo"
 avatar: "img/authors/sjo.png"
-image: "img/20160114_book.jpg"
-date:   2016-03-08 7:14:00
+image: "img/20160308_iwd.jpg"
+date:   2016-03-06 7:14:00
 comments: true
 ---
 
