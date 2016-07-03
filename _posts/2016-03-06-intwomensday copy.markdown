@@ -8,7 +8,9 @@ date:   2016-04-20 11:14:00
 comments: true
 ---
 
-Have you ever mentioned something in passing to someone in conversation on a particular topic, only to watch their face light up? Have you watched this person delve into a huge speech about why this topic is amazing, elaborating on small, insignificant details that make no sense to you?
+Have you ever mentioned something in passing to someone in conversation on a particular topic, only to watch their face light up? 
+
+Have you watched this person delve into a huge speech about why this topic is amazing, elaborating on small, insignificant details that make no sense to you?
 Yeah, that’s me about motorcycling.
 
 The amusing part of all this is that until about 2010, I’d never given a second glance to motorcycles; I was deeply obsessed with the V8 Supercars class of motorsport (and in many ways I’m still deeply in love with Holden machines!)
